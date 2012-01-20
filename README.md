@@ -11,6 +11,16 @@ instead called it 'color-theme-tm'.  I have renamed it 'color-theme-sunburst'
 I am versioning it, since I will be adding support for other modes, and emacs tools
 (such as jabber.el).  And I hope it will encourage others to add to it too.
 
+## Install
+emacs23
+-------
+Color-theme extension should be installed. Then, add the following to your .emacs(or whatever init.el) file: 
+`
+(require 'color-theme)
+(require 'color-theme-sunburst)
+(color-theme-sunburst)
+
+
 ## Support Modes
 In its original form, this theme it contained all basic emacs faces (back-ground-color,
  border-color, etc.).
